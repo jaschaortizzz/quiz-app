@@ -15,3 +15,16 @@ export const updateResult = (index) => async (dispatch) => {
         console.log(error);
     }
 }
+
+export const usePublicResult = (resultData) => {
+    const { result, username} = resultData
+    (async () => {
+        try {
+            if (result !== [] && !username) {
+                throw new Error("Couldnt get result")
+            }
+        } catch (error) {
+            console.log(error);
+        }
+    })
+}
