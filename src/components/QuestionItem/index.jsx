@@ -20,9 +20,9 @@ function QuestionItem({onChecked}) {
     dispatch(updateResult({trace, checked}))
   }
 
-  useEffect(() => {
-    console.log(trace, checked);
-  },[checked])
+  // useEffect(() => {
+  //   console.log(trace, checked);
+  // },[checked])
 
   if (isLoading) return <h3>Loading...</h3>
   if (serverError) return <h3>{serverError || "Unknown Error"}</h3>

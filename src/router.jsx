@@ -7,12 +7,15 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import NotFound from './pages/NotFound'
+import Question from './pages/Question'
+
 
 export default createBrowserRouter(createRoutesFromElements(
     <Route path='/' element={<BaseLayout/>}>
 
         <Route path='home' element={<MainLayout/>}>
             <Route index element={<Home/>}/>
+            <Route path='questions' element={<Question/>}/>
         </Route>
 
         <Route path='auth' element={<AuthLayout/>}>

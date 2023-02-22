@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { useNavigate } from "react-router-dom";
 import QuestionItem from '../QuestionItem'
 import { MoveNextQuestion, MovePrevQuestion } from '../../hooks/FetchQuestions'
 import { PushAnswer } from '../../hooks/setResult'
@@ -14,7 +13,6 @@ function Question() {
   const { queue, trace} = useSelector(state => state.questions)
   const dispatch = useDispatch();
   const [ check, setChecked ] = useState(undefined)
-  const navigate = useNavigate();
 
   useEffect(() => {
     console.log(state);
