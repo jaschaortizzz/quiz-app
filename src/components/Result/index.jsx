@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import clsx from 'clsx';
 import { useDispatch, useSelector } from 'react-redux'
-import { resetAllAction } from '../../redux/question_reducer';
-import { resetResultAction } from '../../redux/result_reducer';
-import { attempts_Number, earnMarks_Number, getServerData } from '../../helper/helper';
 import { useAuthContext } from '../../contexts/authContext';
 // import { usePublishResult } from '../../hooks/setResult';
 

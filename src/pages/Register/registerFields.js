@@ -7,6 +7,7 @@ export const registerFields = [
         component:InputQuiz,
         name:'name',
         id:"name",
+        type: "text",
         'data-value': "",
         autoComplete:"name",
         label: 'Name',
@@ -39,35 +40,6 @@ export const registerFields = [
         ]
 
     },
-    // {
-    //     component:CheckBox,
-    //     label: 'Hobbies',
-    //     name: 'hobbies',
-    //     'data-value': [],
-    //     options: [
-    //         {
-    //             id:'basketball',
-    //             text: 'Basketball',
-    //         },
-    //         {
-    //             id:'football',
-    //             text: 'Football',
-    //         },
-    //         {
-    //             id:'swimming',
-    //             text: 'Swimming',
-    //         },
-    //         {
-    //             id:'movies',
-    //             text: 'Movies',
-    //         },
-    //         {
-    //             id:'skateboard',
-    //             text: 'Skateboarding',
-    //         }
-    //     ]
-
-    // },
     {
         component:InputQuiz,
         name:'email',
@@ -87,7 +59,7 @@ export const registerFields = [
     {
         component:InputQuiz,
         name:'password',
-        id:"passwordd",
+        id:"password",
         'data-value': "",
         type:"password",
         autoComplete:"password",

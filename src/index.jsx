@@ -1,15 +1,19 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import './style.css';
 import { Provider } from 'react-redux';
+import configureStore from './configureStore';
+import './style.css';
 import App from './app';
-import store from './redux/store'
 
 const container = document.getElementById('root');
+
 const root = createRoot(container);
 
+const store = configureStore();
+
+
 root.render(
-    <Provider store={store}>
-        <App />
-    </Provider>
+        <Provider store={store}>
+                <App />
+        </Provider>,
 );

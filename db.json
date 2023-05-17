@@ -1,17 +1,22 @@
 {
   "users": [
     {
+      "email": "test@gmail.com",
+      "password": "$2a$10$8GPlJC.EOGQr6NsGsVphre/V0g6wxCgenqC3TZ7ZSJa.KkzBvm23O",
+      "bookmark": 5,
+      "name": "Jascha",
+      "gender": "male",
+      "confirmPassword": "1234",
+      "id": 1
+    },
+    {
       "email": "jaschaortiz@gmail.com",
-      "password": "$2a$10$izQBsLxmPjV8k..kFcF1AuLGJjr0EZ6/w.S1WaNZRHw9MVDCnAKqy",
+      "password": "$2a$10$2RchKvxng8cAxhXx7Ymoqed6qzY3FLp5daHp/cBvbx4M2JY6Jo.r6",
+      "bookmark": 1,
       "name": "Jascha Ortiz",
       "gender": "male",
-      "hobbies": [
-        "basketball",
-        "movies",
-        "skateboard"
-      ],
       "confirmPassword": "1234",
-      "id": 4
+      "id": 2
     }
   ],
   "questions": [
@@ -19,7 +24,7 @@
       "id": 1,
       "mark": 20,
       "answer": 2,
-      "question":"Branch of science that deals with plants",
+      "question": "Branch of science that deals with plants",
       "options": [
         {
           "id": 1,
@@ -42,7 +47,7 @@
     {
       "id": 2,
       "mark": 20,
-      "question":"Branch of science that deals with animals",
+      "question": "Branch of science that deals with animals",
       "answer": 4,
       "options": [
         {
@@ -66,7 +71,7 @@
     {
       "id": 3,
       "mark": 20,
-      "question":"Branch of science that deals with heavenly bodies",
+      "question": "Branch of science that deals with heavenly bodies",
       "answer": 1,
       "options": [
         {
@@ -90,7 +95,7 @@
     {
       "id": 4,
       "mark": 20,
-      "question":"Branch of science that deals with ancient artificacts",
+      "question": "Branch of science that deals with ancient artificacts",
       "answer": 3,
       "options": [
         {
@@ -114,7 +119,7 @@
     {
       "id": 5,
       "mark": 20,
-      "question":"Branch of science that deals with matter and the changes it undergoes",
+      "question": "Branch of science that deals with matter and the changes it undergoes",
       "answer": 4,
       "options": [
         {
@@ -138,7 +143,7 @@
     {
       "id": 6,
       "mark": 20,
-      "question":"Branch of science that deals with atmosphere",
+      "question": "Branch of science that deals with atmosphere",
       "answer": 1,
       "options": [
         {

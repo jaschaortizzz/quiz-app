@@ -20,13 +20,13 @@ export const loginFields = [
     {
         component:InputQuiz,
         name:'password',
-        id:"password",
+        id: 'password',
         'data-value': "",
         type:"password",
         autoComplete:"password",
         label: 'Password',
         placeholder:"*****",
-        validate:values => {
+        validate:values => {    
             if (!values) {
                 return "Required...."
             }
